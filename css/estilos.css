@@ -1,0 +1,98 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+td,th,tr,a{
+  font-family: 'Lato', sans-serif !important;
+  font-size: 16px !important;
+  text-align: center;
+}
+
+.section-init{
+  width: 100%;
+  height: 400px;
+  background-image: url('../img/fondo.jpg');
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-gol{
+  box-shadow: 2px 2px 2px #ccc;
+}
+
+
+.title{
+  color: white;
+  font-size: 80px;
+  text-shadow: 2px 2px 2px black;
+  padding: 20px 40px;
+  background: linear-gradient(#000,#2d1313,#420503);
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-family: 'Russo One', sans-serif;
+  font-style: oblique;
+}
+
+.sect-two{
+  width: 100%;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.sect-btn{
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.sect-two a, .sect-btn a {
+  margin: auto 10px;
+}
+
+
+
+
+/*--------------------------------------------------------*/
+
+.section-gol{
+  width: 100%;
+  height: 200px;
+  background-image: url('../img/fondo.jpg');
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.sect-goleadores{
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  /*background: linear-gradient(#eee,#fff,#ddd);*/
+}
+
+
+.th-table{
+  background: #420503!important;
+  color: white;
+  font-size: 22px !important;
+}
+
+
+th{
+  text-align: center !important;
+}
